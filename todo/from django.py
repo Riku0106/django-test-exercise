@@ -3,9 +3,9 @@ from django.utils import timezone
 from datetime import datetime
 from .models import Task
 
-# python
 
 class TestTaskIsOverdueNone(TestCase):
+
     def test_is_overdue_none(self):
         # 締め切りなしのタスクを作成
         task = Task(title='no due')
